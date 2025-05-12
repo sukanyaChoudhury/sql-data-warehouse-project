@@ -21,9 +21,9 @@ This project involves:
 
 ## 🚀 Project Requirements
 **Building the Data Warehouse (Data Engineering)**
-## Objective
+### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-## Specifications
+### Specifications
 - Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files. In Bronze layer.
 - Data Quality: Cleanse and resolve data quality issues prior to analysis. In Silver Layer
 - Integration: Combine both sources into a single, user-friendly data model designed for analytical queries. In Gold Layer.
@@ -31,22 +31,21 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 - Scripts and Documentation can be found under respective folders.
 
-## Data Layers Details
+### Data Layers Details
 <img width="728" alt="data_layers1" src="https://github.com/user-attachments/assets/3c3f4de2-cd25-4e5c-94a2-cceac3c2f2af" />
 
 <img width="720" alt="data_layers2" src="https://github.com/user-attachments/assets/578ef490-63e3-478e-9905-c4d8b9dd4b18" />
 
 
-## Data Flow
+### Data Flow
 ![data_flow](https://github.com/user-attachments/assets/b8b7e1fb-8314-4df7-950d-21eb545f5632)
 
-## Data Integration:
+### Data Integration:
 How the data from different source systems are integrated to create dimension tables:
-
 
 ![data_integration](https://github.com/user-attachments/assets/71b6cbbb-7caa-493b-a4c5-21722c871d7d)
 
-## Final Data Model
+### Final Data Model
 Final Star schema data model after combining tables from different sources showing one fact table and two dimension tables:
 ![data_model](https://github.com/user-attachments/assets/0e4b028d-2953-4c53-8e74-2519a0c36409)
 
